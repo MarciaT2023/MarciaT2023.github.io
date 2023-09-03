@@ -6,21 +6,24 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpg');
+    background: url('../images/heroimage_1024.jpg');
     background-size: cover;
     position: relative;
-    padding-bottom: 55%; /*= (height/width)x100 */
+    background-position: center center;
+    padding-bottom: 55%; /* = (height/width)x100 */
     filter: brightness(60%);
 }
 
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 5rem;
+    margin: 0;
     }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .hero-text {
+    font-family: Caveat, cursive;
     text-align: center;
     position: absolute;
     top: 50%;
